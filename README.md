@@ -62,8 +62,8 @@ _(Attach a clean screenshot of the project here)_
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/EquiSports.git
-   cd EquiSports
+   git clone https://github.com/dmsumon2020/sports-zone.git
+   cd sports-zone
    ```
 
 2. **Set up the client-side:**
