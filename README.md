@@ -20,7 +20,6 @@ This is an online store for sports accessories where customers can look at, buy,
 
 ## 📸 Screenshot
 
-_(Attach a clean screenshot of the project here)_
 ![Banner](https://i.ibb.co.com/SXDp0h2w/sports-zone.png)
 
 ---
