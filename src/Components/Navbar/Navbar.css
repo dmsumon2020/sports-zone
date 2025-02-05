@@ -1,0 +1,13 @@
+nav .navbar .menu .active {
+  color: #EB5942;
+  background: transparent;
+}
+.navbar .tabindex{
+  color: #fff !important;
+}
+.navbar .dropdown ul li a{
+color: #000 !important;
+}
+.navbar .dropdown  .dropdown-content{
+ z-index: 100;
+}

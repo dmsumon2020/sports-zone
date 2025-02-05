@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* css for mode switcher dark and light */
+body.light {
+  background-color: white;
+  color: black;
+}
+
+body.dark {
+  background-color: black;
+  color: white;
+}
+
+.theme-toggle {
+  padding: 8px 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #eb5942;
+  color: white;
+  transform: translateY(-50%) rotate(90deg);
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+.theme-toggle:hover {
+  background-color: #000;
+}
+
+/* for product card */
+body.dark .product-icon-action li {
+  background-color: #eb5942;
+  border-color: #eb5942;
+}
+body.dark .product-icon-action li:hover {
+  background-color: #000;
+  border-color: #000;
+}
+body.dark .details-wrap .item-info h2 {
+  color: #fff;
+}
+body.dark .details-wrap .item-description,
+body.dark .details-wrap .processing-time span,
+body.dark .details-wrap .customization-options span,
+body.dark .cart-item p {
+  color: #b0b0b0;
+}
+body.dark .subtotal,
+body.dark .order-summary {
+  color: #000;
+}
+body.dark .sorting-btn {
+  background-color: #eb5942;
+}
+
+.swal2-confirm {
+  background-color: #eb5942;
+}
